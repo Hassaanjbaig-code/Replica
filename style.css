@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar start */
+nav {
+  display: flex;
+  height: 56px;
+  width: auto;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 48px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+}
+
+.Micon {
+  width: 24px;
+  padding: 10px;
+}
+
+#searchbar {
+  margin: 3px 0;
+  font-size: 21px;
+  width: 35rem;
+  height: 2rem;
+  border: none;
+  font-weight: 400;
+  border-radius: 12px;
+}
+
+.serachbar-border {
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+  border: 1px solid #a1a09e;
+  border-radius: 10px;
+}
+
+.button {
+  background-color: #f8f8f8;
+}
+
+#Searchbutton {
+  background-image: url(/Icon/icons8-search-30.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  border: none;
+  cursor: pointer;
+}
+
+#video {
+  height: 35px;
+}
+
+#noti {
+  height: 33px;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
+.circle {
+  height: 35px;
+  width: 33px;
+  border-radius: 65%;
+  background-color: blue;
+  display: inline-block;
+}
+
+/* Nav bar end */
+
+/* Video part started */
+.divide {
+  height: 100vh;
+}
+
+.split {
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 77px;
+  padding-top: 20px;
+}
+
+.left {
+  width: 60%;
+}
+
+.contorler {
+  padding-left: 20px;
+  padding-right: 45px;
+}
+
+.screen {
+  width: 100%;
+  height: 437px;
+  background-color: black;
+}
+
+.screen video {
+  width: 100%;
+  height: 100%;
+}
+
+.bar {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+/* Video part end */
+.h1title {
+  font-size: 1.3rem;
+  line-height: 3rem;
+  font-weight: 600;
+}
+
+.space {
+  padding-left: 22px;
+  display: flex;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.material-symbols-outlined {
+  padding-right: 9px;
+}
+
+.line {
+  margin-top: 40px;
+  border-top: 1px solid grey;
+  background-color: grey;
+  width: 100%;
+}
+
+.Finder {
+  width: 100%;
+  margin: 10px 0 10px 0;
+  padding: 31px 0 30px 0;
+  border-top: 1px solid #c5c5c5;
+  border-bottom: 1px solid #c5c5c5;
+}
+
+.account {
+  display: flex;
+}
+
+.name {
+  padding-left: 20px;
+}
+
+.name p {
+  width: 545px;
+}
+
+.btnsub button {
+  background-color: red;
+  padding: 9px;
+  font-size: 20px;
+  color: white;
+  border: none;
+}
+
+.des {
+  padding: 27px 0 10px 40px;
+}
+
+.des p {
+  font-size: 18px;
+}
+
+.des p a {
+  text-decoration: none;
+  color: black;
+}
+
+.right {
+  right: 0;
+  width: 40%;
+}
+
+.total {
+  width: 402.7px;
+}
+
+.card {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.image {
+  width: 168px;
+  height: 100%;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+}
+
+.leftcard {
+  width: 226px;
+  height: 80px;
+  padding-left: 18px;
+}
+
+.leftcard h1 {
+  height: 40px;
+  font-weight: 700;
+  font-size: 17.5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.metadata {
+  display: flex;
+  flex-direction: column;
+}
+
+.byline {
+  width: 100%;
+  height: 18px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1400px) {
+  #searchbar {
+    width: 35rem;
+  }
+}
+
+@media screen and (max-width: 1255px) {
+  #searchbar {
+    width: 27rem;
+  }
+
+  .divide {
+    height: 100%;
+  }
+
+  .split {
+    height: none;
+    position: relative;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .screen {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .right {
+    width: 100%;
+    padding-left: 2%;
+  }
+
+  .total {
+    width: 100%;
+  }
+
+  .leftcard {
+    width: 100%;
+  }
+
+  .leftcard h1 {
+    font-size: 23px;
+  }
+
+  .card {
+    height: 153px;
+  }
+
+  .image {
+    width: 348px;
+  }
+}
+
+@media screen and (max-width: 1075px) {
+  .end {
+    padding-left: 10%;
+  }
+}
